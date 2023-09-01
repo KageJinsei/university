@@ -1,0 +1,30 @@
+.central{text-align: center;}
+h1.supertitulo{color: blue; font-size: 50px;}
+
+.supertitulo{font-size: 100px;}
+
+#tituloprincipal{font-size: 90px; color: whitesmoke;}
+p{background-color: chartreuse;}
+p{background-color: rgba(127, 255, 212, 0.555);}
+p{text-align: center;}
+
+.minhalista li {
+    color: darkcyan;
+
+}
+
+body{
+    background-image: url(reddevil.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px;
+}
+
+.caixa{
+    margin: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 4px solid black;
+    width: fit-content;
+    background-color: coral;
+}
