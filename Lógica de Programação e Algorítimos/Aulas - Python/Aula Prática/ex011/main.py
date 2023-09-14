@@ -58,16 +58,16 @@ while True:
           '2 - Listar cadastros\n' +
           '3 - Sair')
     
-    opção = validaInt('Escolha a opção desejada: ', 1, 3)
+    opcao = validaInt('Escolha a opção desejada: ', 1, 3)
 
-    if (opção == 1):
+    if (opcao == 1):
         print('Opção de cadastrar novo item selecionada...\n')
         nomeJogo = input('Nome do jogo: ')
         nomePlataforma = input('Nome da plataforma: ')
         cadastrarJogo(caminho, nomeJogo, nomePlataforma)
-    elif (opção == 2):
+    elif (opcao == 2):
         print('Opção de listar selecionada...\n')
         listarArquivo(caminho)
-    elif (opção == 3):
+    elif (opcao == 3):
         print('Encerrando programa...')
         break
