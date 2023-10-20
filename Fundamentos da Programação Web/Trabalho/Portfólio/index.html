@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/adsuninter/Fundamentos da Programação Web/Trabalho/Portfólio/css/style.css">
+</head>
+
+<body>
+    <section class="sec-1">
+        <header class="header-container">
+            <ul class="links-list">
+                <li><a href="#home" class="link">Home</a></li>
+                <li><a href="#sobre" class="link">Sobre</a></li>
+                <li><a href="#formação" class="link">Formação</a></li>
+                <li><a href="#portfólio" class="link">Portfólio</a></li>
+                <li><a href="#pf-contato" class="link">Contato</a></li>
+            </ul>
+        </header>
+
+        <main class="home" id="home">
+            <div class="home-wrapper">
+                <h1>Hello World! Eu sou <span>Kage Jinsei</span></h1>
+                <p>Atualmente sou Software Developer (em desenvolvimento) com foco no <strong>back-end</strong>.</p>
+                <p>Minhas skills são:</p>
+
+                <div class="skills-list">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go/go.png" height="40">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png"
+                        height="40">
+                    <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/kotlin/kotlin.png"
+                        height="40">
+                    <img src="/adsuninter/Fundamentos da Programação Web/Trabalho/Portfólio/assets/MySQL.png" height="40">
+                    <img src="/adsuninter/Fundamentos da Programação Web/Trabalho/Portfólio/assets/Git.png" height="40">
+                    <img src="/adsuninter/Fundamentos da Programação Web/Trabalho/Portfólio/assets/Visual Studio Code.png" height="40">
+                    <img src="/adsuninter/Fundamentos da Programação Web/Trabalho/Portfólio/assets/Intellij.png" height="40">
+                    <img src="/adsuninter/Fundamentos da Programação Web/Trabalho/Portfólio/assets/Linux.png" height="40">
+                    <img src="/adsuninter/Fundamentos da Programação Web/Trabalho/Portfólio/assets/Windows.png" height="40">
+                </div>
+            </div>
+
+            <img class="profile-icon" src="https://github.com/KageJinsei.png">
+        </main>
+
+        <a href="#sobre" class="see-more-button">Ver mais</a>
+    </section>
+
+
+    <section class="sobre" id="sobre">
+        <h1>Sobre Mim</h1>
+        <p>Gosto de tecnologia em geral e beatbox.</p>
+    </section>
+
+    <section class="s1">
+        <div class="formação" id="formação">
+            <h1>Formação</h1>
+            <h2>Graduação:</h2>
+            <br>
+            <h3>Centro Universitário Internacional - UNINTER</h3>
+            <strong>Tecnologia em Análise e Desenvolvimento de Sistemas</strong>
+            <br>
+            <p>06/2023 - 12/2025</p>
+        </div>
+        </section>
+        <section class="s1">
+        <div class="cursos" id="cursos">
+            <h2>Cursos:</h2>
+            <br>
+            <h3>SENAC - BA</h3>
+            <strong>Administrador de Banco de Dados</strong>
+            <p>06/2022 - 09/2022</p>
+        </div>
+        </section>
+        <section class="s1">
+            <div class="portfólio" id="portfólio">
+                <h1>Portfólio</h1>
+                <h2>Projetos:</h2>
+                <br>
+                <h3>Confira abaixo meu repositório de projetos:</h3>
+                <div class="botão-git">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/KageJinsei" target="_blank" class="link links-html link-contato">GitHub</a>
+                        </li>
+                    </ul>
+            </div>
+            </div>
+        </section>
+        <div class="contato" id="contato">
+            <h1>Contato</h1>
+        </div>
+        <div class="botão-contato">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/kagejinsei" target="_blank" class="link">LinkedIn</a>
+                    </li>
+                </li>
+            </ul>
+            <p id="pf-contato">ou</p>
+    </div>
+    <div class="table">
+        <form action="">
+            <table>
+                <tr>
+                    <th><label for="nome" class="nomes">Nome:</label></th>
+                    <td><input type="text" name="nome" id="nome" placeholder="Digite seu"></td>
+                </tr>
+                <tr>
+                    <th><label for="email" class="nomes">E-mail:</label></th>
+                    <td><input type="email" name="email" id="email" placeholder="Digite seu e-mail"></td>
+                </tr>
+                <tr>
+                    <th><label for="msg" class="nomes"> Digite aqui:</label></th>
+                    <td><textarea name="msg" id="" cols="40" rows="5" placeholder="Digite a sua mensagem aqui"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="link" id="btn-enviar">Enviar</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

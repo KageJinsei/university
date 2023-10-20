@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    color: chocolate;
+}
+
+p{
+    text-align: justify;
+    color: aquamarine;
+}
+
+#p{
+    color: darkkhaki;
+}
+
+.p{
+    color: darkmagenta;
+}
